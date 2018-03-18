@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="18dp"
+    android:paddingTop="18dp"
+    android:paddingRight="18dp"
+    android:paddingLeft="18dp"
+    tools:context="com.example.user.pradikaadhea_1202154132_studycase4.GambarAsynctask">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Cari Gambar"
+        android:textColor="#2f61b3"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/sumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#c46303"
+        android:hint="Masukkan URL Gambar"
+        android:singleLine="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:background="#c46303"
+        android:onClick="cari"
+        android:text="Klik"
+        android:textColor="@android:color/background_light" />
+
+    <ImageView
+        android:layout_marginTop="18dp"
+        android:id="@+id/gambar"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

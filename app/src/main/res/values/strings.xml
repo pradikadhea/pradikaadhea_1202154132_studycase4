@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PRADIKAADHEA_1202154132_MODUL4</string>
+    <string-array name="namamahasiswa">
+        <item>Pradika Adhea</item>
+        <item>Michael Jordan</item>
+        <item>Michael Phelps</item>
+        <item>John Connor</item>
+        <item>Marcus Rashford</item>
+        <item>LeBron James</item>
+        <item>Paul Pierce</item>
+        <item>Conor McGregor</item>
+        <item>Mohammad Ali</item>
+        <item>Tiger Woods</item>
+        <item>Derek Jeter</item>
+        <item>Tom Brady</item>
+        <item>James Harrison</item>
+    </string-array>
+</resources>
+
